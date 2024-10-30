@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    background-image: url(images/bg-pattern-bottom.svg);
+    background-size: contain;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+.container{
+    background-color: white;
+    width: 490px;
+    height: 530px;
+    border-radius: 20px;
+    font-family: "Kumbh Sans",sans-serif;
+}
+.img{
+    width: 490px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-icon{
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+    left: 178px;
+}
+.user{
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+.user h5{
+    margin-top: 12px;
+    color: hsl(0, 0%, 59%);
+    font-size: 19px;
+    font-weight: 500;
+}
+.border{
+    width: 100%;
+    border-top: 2px solid #f1f1f1;
+    font-weight: 100;
+}
+.like{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.one{
+    margin-right: 70px;
+}
+.one p{
+    color: hsl(0, 0%, 59%);
+}
+.two{
+    margin-right: 80px;
+}
+.two p{
+    color: hsl(0, 0%, 59%);
+}
+.three p{
+    color: hsl(0, 0%, 59%);
+}
+span{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
